@@ -1,4 +1,3 @@
-#!/usr/bin/env python2
 from FireflyAlgorithm import *
 
 
@@ -12,4 +11,4 @@ def Fun(D, sol):
 Algorithm = FireflyAlgorithm(10, 20, 10000, 0.5, 0.2, 1.0, -2.0, 2.0, Fun)
 Best = Algorithm.Run()
 
-print Best
+print (Best)
