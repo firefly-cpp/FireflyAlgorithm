@@ -19,9 +19,6 @@ Best = Algorithm.Run()
 print Best
 ```
 
-## Bugs
-Bugs and extension should be send via Github.
-
 ## Reference Papers:
 
 I. Fister Jr.,  X.-S. Yang,  I. Fister, J. Brest. [Memetic firefly algorithm for combinatorial optimization](http://www.iztok-jr-fister.eu/static/publications/44.pdf) in Bioinspired Optimization Methods and their Applications (BIOMA 2012), B. Filipic and J.Silc, Eds. 
