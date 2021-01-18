@@ -38,23 +38,9 @@ class FireflyAlgorithm():
         delta = 1.0 - math.pow((math.pow(10.0, -4.0) / 0.9), 1.0 / float(a))
         return (1 - delta) * self.alpha
 
-    def sort_ffa(self):  # implementation of bubble sort
-        for i in range(self.NP):
-            self.Index[i] = i
-
-        for i in range(0, (self.NP - 1)):
-            j = i + 1
-            for j in range(j, self.NP):
-                if (self.I[i] > self.I[j]):
-                    z = self.I[i]  # exchange attractiveness
-                    self.I[i] = self.I[j]
-                    self.I[j] = z
-                    z = self.Fitness[i]  # exchange fitness
-                    self.Fitness[i] = self.Fitness[j]
-                    self.Fitness[j] = z
-                    z = self.Index[i]  # exchange indexes
-                    self.Index[i] = self.Index[j]
-                    self.Index[j] = z
+    def sort_ffa(self):
+        self.Index = [i for i in range(self.NP)]
+        self.I, self.Fitness, self.Index = [list(l) for l in zip(*sorted(zip(self.I, self.Fitness, self.Index)))]
 
     def replace_ffa(self):  # replace the old population according to the new Index values
         # copy original population to a temporary area
