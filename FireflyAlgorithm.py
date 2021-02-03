@@ -19,7 +19,7 @@ class FireflyAlgorithm():
             self.NP)]  # intermediate pop
         self.Fitness = [0.0] * self.NP  # fitness values
         self.I = [0.0] * self.NP  # light intensity
-        self.nbest = [0.0] * self.NP  # the best solution found so far
+        self.nbest = [0.0] * self.D  # the best solution found so far
         self.LB = LB  # lower bound
         self.UB = UB  # upper bound
         self.fbest = None  # the best
