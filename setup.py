@@ -13,7 +13,7 @@ setup(name='FireflyAlgorithm',
       long_description=long_description,
       long_description_content_type="text/markdown",
       author='firefly-cpp',
-      version='0.0.2',
+      version='0.0.3',
       license='MIT',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
