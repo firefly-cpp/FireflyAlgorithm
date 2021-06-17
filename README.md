@@ -7,7 +7,7 @@ pip install FireflyAlgorithm
 ```
 To install FireflyAlgorithm on Fedora, use:
 ```sh
-$ dnf install python-FireflyAlgorithm
+$ dnf install python-fireflyalgorithm
 ```
 
 ## CODE EXAMPLE:
