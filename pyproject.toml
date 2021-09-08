@@ -1,9 +1,13 @@
 [tool.poetry]
-name = "fireflyalgorithm"
+name = "FireflyAlgorithm"
 version = "0.0.4"
-description = "Firefly algorithm implementation"
+description = "Firefly algorithm implementation."
 authors = ["firefly-cpp"]
 license = "MIT"
+
+packages = [
+    {include = "FireflyAlgorithm.py"},
+]
 
 [tool.poetry.dependencies]
 python = ">=3.7,<3.11"
