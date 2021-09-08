@@ -1,14 +1,11 @@
-from FireflyAlgorithm import *
+import numpy as np
+from FireflyAlgorithm import FireflyAlgorithm
 
 
-def Fun(D, sol):
-    val = 0.0
-    for i in range(D):
-        val = val + sol[i] * sol[i]
-    return val
+def sphere(x):
+    return np.sum(x ** 2)
 
 
-Algorithm = FireflyAlgorithm(10, 20, 10000, 0.5, 0.2, 1.0, -2.0, 2.0, Fun)
-Best = Algorithm.Run()
+best = FireflyAlgorithm(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
 
-print (Best)
+print(best)
