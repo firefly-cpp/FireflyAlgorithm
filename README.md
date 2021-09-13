@@ -3,7 +3,7 @@
 ## INSTALLATION:
 
 ```sh
-pip install FireflyAlgorithm
+pip install fireflyalgorithm
 ```
 To install FireflyAlgorithm on Fedora, use:
 ```sh
