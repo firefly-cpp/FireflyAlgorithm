@@ -1,0 +1,42 @@
+Summary
+-------
+
+Implementation of the standard Firefly Algorithm in Python.
+
+Installation
+------------
+
+.. code:: sh
+
+    pip install fireflyalgorithm
+
+
+To install FireflyAlgorithm on Fedora, use:
+
+.. code:: sh
+
+    sudo dnf install python-fireflyalgorithm
+
+Usage
+-----
+
+.. code:: python
+
+    import numpy as np
+    from FireflyAlgorithm import FireflyAlgorithm
+
+
+    def sphere(x):
+        return np.sum(x ** 2)
+
+
+    best = FireflyAlgorithm(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
+    print(best)
+
+Reference papers
+----------------
+
+| I. Fister Jr.,  X.-S. Yang,  I. Fister, J. Brest. `Memetic firefly algorithm for combinatorial optimization <http://www.iztok-jr-fister.eu/static/publications/44.pdf>`_ in Bioinspired Optimization Methods and their Applications (BIOMA 2012), B. Filipic and J.Silc, Eds. Jozef Stefan Institute, Ljubljana, Slovenia, 2012
+
+| I. Fister, I. Fister Jr.,  X.-S. Yang, J. Brest. `A comprehensive review of firefly algorithms <http://www.iztok-jr-fister.eu/static/publications/23.pdf>`_. Swarm and Evolutionary Computation 13 (2013): 34-46.
+
