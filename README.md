@@ -1,19 +1,20 @@
 # Firefly Algorithm in Python
 
-## INSTALLATION:
+## Installation:
 
 ```sh
 pip install fireflyalgorithm
 ```
 To install FireflyAlgorithm on Fedora, use:
 ```sh
-$ dnf install python-fireflyalgorithm
+dnf install python-fireflyalgorithm
 ```
 
-## CODE EXAMPLE:
+## Usage:
 
 ```python
-from FireflyAlgorithm import *
+import numpy as np
+from FireflyAlgorithm import FireflyAlgorithm
 
 
 def sphere(x):
