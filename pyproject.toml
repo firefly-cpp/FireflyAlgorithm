@@ -4,6 +4,7 @@ version = "0.2"
 description = "Firefly algorithm implementation."
 authors = ["firefly-cpp"]
 license = "MIT"
+readme = "README.md"
 
 packages = [
     {include = "FireflyAlgorithm.py"},
