@@ -9,6 +9,6 @@ def sphere(x):
 
 class TestFA(TestCase):
     def test_algorithm(self):
-        FA = FireflyAlgorithm(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
-        best = FA.move()
+        FA = FireflyAlgorithm()
+        best = FA.run(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
         self.assertLess(best, 5)
