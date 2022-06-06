@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "FireflyAlgorithm"
+name = "fireflyalgorithm"
 version = "0.3.1"
 description = "Implementation of Firefly Algorithm in Python"
 authors = ["firefly-cpp"]
