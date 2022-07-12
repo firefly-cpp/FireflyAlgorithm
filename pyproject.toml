@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fireflyalgorithm"
-version = "0.3.1"
+version = "0.3.2"
 description = "Implementation of Firefly Algorithm in Python"
 authors = ["firefly-cpp"]
 license = "MIT"
