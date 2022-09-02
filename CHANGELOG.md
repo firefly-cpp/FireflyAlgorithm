@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.2](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.3.2) (2022-07-12)
+
+[Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3.1...0.3.2)
+
+**Merged pull requests:**
+
+- Rename project name in pyproject.toml [\#9](https://github.com/firefly-cpp/FireflyAlgorithm/pull/9) ([firefly-cpp](https://github.com/firefly-cpp))
+
 ## [0.3.1](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.3.1) (2022-06-05)
 
 [Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3...0.3.1)
