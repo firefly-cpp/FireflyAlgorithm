@@ -2,14 +2,15 @@
 name = "fireflyalgorithm"
 version = "0.3.2"
 description = "Implementation of Firefly Algorithm in Python"
-authors = ["firefly-cpp"]
+authors = ["Iztok Fister Jr. <iztok@iztok-jr-fister.eu>", "Luka Pečnik <luka.pecnik@student.um.si>", "Žiga Stupan <ziga.stupan1@student.um.si>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/firefly-cpp/FireflyAlgorithm"
+repository = "https://github.com/firefly-cpp/FireflyAlgorithm"
 
 include = [
     { path="LICENSE", format="sdist" }
 ]
-
 
 [tool.poetry.dependencies]
 python = "^3.7"
