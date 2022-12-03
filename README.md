@@ -1,3 +1,9 @@
+<p align="center">
+  <img width="200" src="https://raw.githubusercontent.com/firefly-cpp/FireflyAlgorithm/master/.github/imgs/firefly_logo.png">
+</p>
+
+---
+
 # Firefly Algorithm --- Implementation of Firefly algorithm in Python
 
 ---
