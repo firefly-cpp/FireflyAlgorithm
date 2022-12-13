@@ -18,6 +18,10 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/firefly-cpp/FireflyAlgorithm.svg)](http://isitmaintained.com/project/firefly-cpp/FireflyAlgorithm "Percentage of issues still open")
 ![GitHub contributors](https://img.shields.io/github/contributors/firefly-cpp/FireflyAlgorithm.svg)
 
+## About
+
+This package implements a nature-inspired algorithm for optimization called Firefly Algorithm (FA) in Python programming language.
+
 ## Installation:
 
 ```sh
