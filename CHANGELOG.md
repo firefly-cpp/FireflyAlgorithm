@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.4](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.3.4) (2022-12-13)
+
+[Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3.3...0.3.4)
+
+**Merged pull requests:**
+
+- logo add [\#10](https://github.com/firefly-cpp/FireflyAlgorithm/pull/10) ([rhododendrom](https://github.com/rhododendrom))
+
+## [0.3.3](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.3.3) (2022-10-31)
+
+[Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3.2...0.3.3)
+
 ## [0.3.2](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.3.2) (2022-07-12)
 
 [Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3.1...0.3.2)
