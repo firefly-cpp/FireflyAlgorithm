@@ -12,6 +12,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fireflyalgorithm.svg)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/fireflyalgorithm.svg)
 [![Downloads](https://pepy.tech/badge/fireflyalgorithm)](https://pepy.tech/project/fireflyalgorithm)
+[![AUR package](https://img.shields.io/aur/version/python-fireflyalgorithm?color=blue&label=Arch%20Linux&logo=arch-linux)](https://aur.archlinux.org/packages/python-fireflyalgorithm)
 [![GitHub license](https://img.shields.io/github/license/firefly-cpp/FireflyAlgorithm.svg)](https://github.com/firefly-cpp/FireflyAlgorithm/blob/master/LICENSE)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/firefly-cpp/FireflyAlgorithm.svg)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/firefly-cpp/FireflyAlgorithm.svg)](http://isitmaintained.com/project/firefly-cpp/FireflyAlgorithm "Average time to resolve an issue")
@@ -24,12 +25,17 @@ This package implements a nature-inspired algorithm for optimization called Fire
 
 ## Installation:
 
+Install FireflyAlgorithm with pip:
 ```sh
 pip install fireflyalgorithm
 ```
 To install FireflyAlgorithm on Fedora, use:
 ```sh
 dnf install python-fireflyalgorithm
+```
+To install FireflyAlgorithm on Arch Linux, please use an [AUR helper](https://wiki.archlinux.org/title/AUR_helpers):
+```sh
+$ yay -Syyu python-fireflyalgorithm
 ```
 
 ## Usage:
