@@ -41,17 +41,50 @@ $ yay -Syyu python-fireflyalgorithm
 ## Usage:
 
 ```python
-import numpy as np
 from fireflyalgorithm import FireflyAlgorithm
-
-def sphere(x):
-    return np.sum(x ** 2)
+from fireflyalgorithm.problems import sphere
 
 FA = FireflyAlgorithm()
 best = FA.run(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
 
 print(best)
 ```
+
+### Command line interface
+
+The package also comes with a simple command line interface which allows you to evaluate the algorithm on several
+popular test functions
+
+```shell
+firefly-algorithm -h
+```
+
+```text
+usage: firefly-algorithm [-h] --problem PROBLEM -d DIMENSION -l LOWER -u UPPER -nfes MAX_EVALS [-r RUNS] [--pop-size POP_SIZE] [--alpha ALPHA] [--beta-min BETA_MIN] [--gamma GAMMA] [--seed SEED]
+
+Evaluate the Firefly Algorithm on one or more test functions
+
+options:
+  -h, --help            show this help message and exit
+  --problem PROBLEM     Test problem to evaluate
+  -d DIMENSION, --dimension DIMENSION
+                        Dimension of the problem
+  -l LOWER, --lower LOWER
+                        Lower bounds of the problem
+  -u UPPER, --upper UPPER
+                        Upper bounds of the problem
+  -nfes MAX_EVALS, --max-evals MAX_EVALS
+                        Max number of fitness function evaluations
+  -r RUNS, --runs RUNS  Number of runs of the algorithm
+  --pop-size POP_SIZE   Population size
+  --alpha ALPHA         Randomness strength
+  --beta-min BETA_MIN   Attractiveness constant
+  --gamma GAMMA         Absorption coefficient
+  --seed SEED           Seed for the random number generator
+```
+
+**Note:** The CLI script can also run as a python module (python -m niaarm ...)
+
 
 ## Reference Papers:
 
