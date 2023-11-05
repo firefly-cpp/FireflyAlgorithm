@@ -19,6 +19,9 @@ numpy = "^1.26.1"
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.3"
 
+[tool.poetry.scripts]
+firefly-algorithm = 'fireflyalgorithm.cli:main'
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
