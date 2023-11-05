@@ -56,7 +56,7 @@ def katsuura(x):
     dim = len(x)
     k = np.atleast_2d(np.arange(1, 33)).T
     i = np.arange(0, dim * 1)
-    inner = np.round(2**k * x) * (2 ** (-k))
+    inner = np.round(2**k * x) * (2.0 ** (-k))
     return np.prod(np.sum(inner, axis=0) * (i + 1) + 1)
 
 
@@ -165,7 +165,9 @@ def schaffer4(x):
 
 def schwefel(x):
     dim = len(x)
-    return 418.9829 * dim - np.sum(x * np.sin(np.sqrt(np.abs(x))))
+    return 418.982887272433799807913601398 * dim - np.sum(
+        x * np.sin(np.sqrt(np.abs(x)))
+    )
 
 
 def schwefel21(x):

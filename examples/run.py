@@ -1,9 +1,5 @@
-import numpy as np
 from fireflyalgorithm import FireflyAlgorithm
-
-
-def sphere(x):
-    return np.sum(x ** 2)
+from fireflyalgorithm.problems import sphere
 
 
 FA = FireflyAlgorithm()
