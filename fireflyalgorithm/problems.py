@@ -124,7 +124,7 @@ def powell(x):
     return np.sum(term1 + term2 + term3 + term4)
 
 
-def quing(x):
+def qing(x):
     dim = len(x)
     return np.sum(np.power(x**2 - np.arange(1, dim + 1), 2))
 
@@ -245,7 +245,7 @@ PROBLEMS = {
     "perm2": perm2,
     "pinter": pinter,
     "powell": powell,
-    "quing": quing,
+    "qing": qing,
     "quintic": quintic,
     "rastrigin": rastrigin,
     "rosenbrock": rosenbrock,

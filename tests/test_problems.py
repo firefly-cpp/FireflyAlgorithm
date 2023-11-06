@@ -56,7 +56,7 @@ class TestProblems(TestCase):
         self.assertEqual(get_problem("perm2"), perm2)
         self.assertEqual(get_problem("pinter"), pinter)
         self.assertEqual(get_problem("powell"), powell)
-        self.assertEqual(get_problem("quing"), quing)
+        self.assertEqual(get_problem("qing"), qing)
         self.assertEqual(get_problem("quintic"), quintic)
         self.assertEqual(get_problem("rastrigin"), rastrigin)
         self.assertEqual(get_problem("rosenbrock"), rosenbrock)
@@ -135,7 +135,7 @@ class TestProblems(TestCase):
         x = np.zeros(5)
         self.assertAlmostEqual(powell(x), 0.0)
 
-    def test_quing(self):
+    def test_qing(self):
         x = np.sqrt(np.arange(1, 6))
         self.assertAlmostEqual(quing(x), 0.0)
 
