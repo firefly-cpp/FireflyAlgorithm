@@ -137,7 +137,7 @@ class TestProblems(TestCase):
 
     def test_qing(self):
         x = np.sqrt(np.arange(1, 6))
-        self.assertAlmostEqual(quing(x), 0.0)
+        self.assertAlmostEqual(qing(x), 0.0)
 
     def test_quintic(self):
         x = np.full(5, -1)
