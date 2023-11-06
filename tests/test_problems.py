@@ -17,7 +17,7 @@ from fireflyalgorithm.problems import (
     perm2,
     pinter,
     powell,
-    quing,
+    qing,
     quintic,
     rastrigin,
     rosenbrock,
