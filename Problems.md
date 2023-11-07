@@ -153,10 +153,8 @@ f(x) =  \sum_{i = 1}^D \left( \sum_{j = 1}^D (j - \beta) \left( x_j^i - \frac{1}
 ***Function name:*** `pinter`
 
 ```math
-\begin{equation}
 f(\mathbf{x}) =
 \sum_{i=1}^D ix_i^2 + \sum_{i=1}^D 20i \sin^2 A + \sum_{i=1}^D i \log_{10} (1 + iB^2),\, \text{where}
-\end{equation}
 
 \begin{align}
 A &= (x_{i-1}\sin(x_i)+\sin(x_{i+1})) \\
