@@ -25,8 +25,8 @@ from fireflyalgorithm.problems import (
     schaffer2,
     schaffer4,
     schwefel,
-    schwefel21,
-    schwefel22,
+    schwefel221,
+    schwefel222,
     sphere,
     step,
     step2,
@@ -64,8 +64,8 @@ class TestProblems(TestCase):
         self.assertEqual(get_problem("schaffer2"), schaffer2)
         self.assertEqual(get_problem("schaffer4"), schaffer4)
         self.assertEqual(get_problem("schwefel"), schwefel)
-        self.assertEqual(get_problem("schwefel21"), schwefel21)
-        self.assertEqual(get_problem("schwefel22"), schwefel22)
+        self.assertEqual(get_problem("schwefel221"), schwefel221)
+        self.assertEqual(get_problem("schwefel222"), schwefel222)
         self.assertEqual(get_problem("sphere"), sphere)
         self.assertEqual(get_problem("step"), step)
         self.assertEqual(get_problem("step2"), step2)
@@ -175,11 +175,11 @@ class TestProblems(TestCase):
 
     def test_schwefel21(self):
         x = np.zeros(5)
-        self.assertAlmostEqual(schwefel21(x), 0.0)
+        self.assertAlmostEqual(schwefel221(x), 0.0)
 
     def test_schwefel22(self):
         x = np.zeros(5)
-        self.assertAlmostEqual(schwefel22(x), 0.0)
+        self.assertAlmostEqual(schwefel222(x), 0.0)
 
     def test_sphere(self):
         x = np.zeros(5)
@@ -190,8 +190,8 @@ class TestProblems(TestCase):
         self.assertAlmostEqual(step(x), 0.0)
 
     def test_step2(self):
-        x = np.full(5, 0.5)
-        self.assertAlmostEqual(step(x), 0.0)
+        x = np.full(5, -0.5)
+        self.assertAlmostEqual(step2(x), 0.0)
 
     def test_styblinski_tang(self):
         x = np.full(5, -2.903534018185960)
