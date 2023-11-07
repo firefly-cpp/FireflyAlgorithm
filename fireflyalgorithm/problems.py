@@ -55,9 +55,9 @@ def griewank(x):
 def katsuura(x):
     dim = len(x)
     k = np.atleast_2d(np.arange(1, 33)).T
-    i = np.arange(0, dim * 1)
+    i = np.arange(1, dim + 1)
     inner = np.round(2**k * x) * (2.0 ** (-k))
-    return np.prod(np.sum(inner, axis=0) * (i + 1) + 1)
+    return np.prod(np.sum(inner, axis=0) * i + 1)
 
 
 def levy(x):
@@ -158,7 +158,7 @@ def schaffer2(x):
 def schaffer4(x):
     return (
         0.5
-        + (np.cos(np.sin(x[0] ** 2 - x[1] ** 2)) ** 2 - 0.5)
+        + (np.cos(np.sin(abs(x[0] ** 2 - x[1] ** 2))) ** 2 - 0.5)
         / (1 + 0.001 * (x[0] ** 2 + x[1] ** 2)) ** 2
     )
 
@@ -170,11 +170,11 @@ def schwefel(x):
     )
 
 
-def schwefel21(x):
+def schwefel221(x):
     return np.amax(np.abs(x))
 
 
-def schwefel22(x):
+def schwefel222(x):
     return np.sum(np.abs(x)) + np.prod(np.abs(x))
 
 
@@ -253,8 +253,8 @@ PROBLEMS = {
     "schaffer2": schaffer2,
     "schaffer4": schaffer4,
     "schwefel": schwefel,
-    "schwefel21": schwefel21,
-    "schwefel22": schwefel22,
+    "schwefel221": schwefel221,
+    "schwefel222": schwefel222,
     "sphere": sphere,
     "step": step,
     "step2": step2,

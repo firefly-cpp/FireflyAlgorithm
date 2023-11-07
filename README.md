@@ -50,6 +50,19 @@ best = FA.run(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
 print(best)
 ```
 
+### Test functions
+
+In the `fireflyalgorithm.problems` module, you can find the implementations of 33 popular optimization test problems.  Additionally, the module provides a utility function, `get_problem`, that allows you to retrieve a specific optimization problem function by providing its name as a string:
+
+```python
+from fireflyalgorithm.problems import get_problem
+
+# same as from fireflyalgorithm.problems import rosenbrock
+rosenbrock = get_problem('rosenbrock')
+```
+
+For more information about the implemented test functions, [click here](Problems.md)
+
 ### Command line interface
 
 The package also comes with a simple command line interface which allows you to evaluate the algorithm on several
