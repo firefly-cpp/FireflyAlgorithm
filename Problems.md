@@ -6,7 +6,7 @@ Bellow You'll find the definitions of all the test functions implemented in this
 ***Function name:*** `ackley`
 
 ```math
-f(x) = -20 e^{-0.2 \sqrt{\frac{1}{D} \sum_{i=1}^D x_i^2}} - e^{\frac{1}{D} \sum_{i=1}^D \cos(2 \pi x_i)} + 20 + e
+f(x) = -20 e^{-0.2 \sqrt{D^{-1} \sum\nolimits_{i=1}^D x_i^2}} - e^{D^{-1} \sum\nolimits_{i=1}^D \cos(2 \pi x_i)} + 20 + e
 ```
 
 **Dimensions:** $D$
@@ -153,9 +153,9 @@ f(x) =  \sum_{i = 1}^D \left( \sum_{j = 1}^D (j - \beta) \left( x_j^i - \frac{1}
 ***Function name:*** `pinter`
 
 ```math
-f(\mathbf{x}) =
-\sum_{i=1}^D ix_i^2 + \sum_{i=1}^D 20i \sin^2 A + \sum_{i=1}^D i \log_{10} (1 + iB^2),\, \text{where}
-
+f(x) = \sum_{i=1}^D ix_i^2 + \sum_{i=1}^D 20i \sin^2 A + \sum_{i=1}^D i \log_{10} (1 + iB^2),\, \text{where}
+```
+```math
 \begin{align}
 A &= (x_{i-1}\sin(x_i)+\sin(x_{i+1})) \\
 B &= (x_{i-1}^2 - 2x_i + 3x_{i+1} - \cos(x_i) + 1)
@@ -225,7 +225,7 @@ f(x) = \sum_{i=1}^{D-1} \left[100 (x_{i+1} - x_i^2)^2 + (x_i - 1)^2 \right]
 ***Function name:*** `salomon`
 
 ```math
-f(x) =  1 - \cos\left(2\pi\sqrt{\sum_{i=1}^D x_i^2} \right)+ 0.1 \sqrt{\sum_{i=1}^D x_i^2}
+f(x) =  1 - \cos\left(2\pi\sqrt{\sum\nolimits_{i=1}^D x_i^2} \right)+ 0.1 \sqrt{\sum\nolimits_{i=1}^D x_i^2}
 ```
 
 **Dimensions:** $D$
