@@ -37,6 +37,10 @@ To install FireflyAlgorithm on Arch Linux, please use an [AUR helper](https://wi
 ```sh
 $ yay -Syyu python-fireflyalgorithm
 ```
+To install FireflyAlgorithm on Alpine Linux:
+```sh
+$ apk add py3-fireflyalgorithm
+```
 
 ## Usage:
 
