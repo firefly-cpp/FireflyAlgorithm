@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.4.1](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.4.1) (2023-11-10)
+
+[Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.4.0...0.4.1)
+
+**Closed issues:**
+
+- Create Problems.md [\#18](https://github.com/firefly-cpp/FireflyAlgorithm/issues/18)
+
+**Merged pull requests:**
+
+- Add Test Function definitions [\#19](https://github.com/firefly-cpp/FireflyAlgorithm/pull/19) ([zStupan](https://github.com/zStupan))
+
+## [0.4.0](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.4.0) (2023-11-06)
+
+[Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3.4...0.4.0)
+
+**Closed issues:**
+
+- Enhance tests [\#16](https://github.com/firefly-cpp/FireflyAlgorithm/issues/16)
+- Provide Command Line Interface \(CLI\) [\#13](https://github.com/firefly-cpp/FireflyAlgorithm/issues/13)
+- Add installation instructions for Arch Linux [\#11](https://github.com/firefly-cpp/FireflyAlgorithm/issues/11)
+
+**Merged pull requests:**
+
+- Add tests [\#17](https://github.com/firefly-cpp/FireflyAlgorithm/pull/17) ([zStupan](https://github.com/zStupan))
+- Added a Command Line Interface [\#15](https://github.com/firefly-cpp/FireflyAlgorithm/pull/15) ([zStupan](https://github.com/zStupan))
+- Improve workflows [\#14](https://github.com/firefly-cpp/FireflyAlgorithm/pull/14) ([firefly-cpp](https://github.com/firefly-cpp))
+- Add instructions for install FireflyAlgorithm in Arch Linux [\#12](https://github.com/firefly-cpp/FireflyAlgorithm/pull/12) ([carlosal1015](https://github.com/carlosal1015))
+
 ## [0.3.4](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.3.4) (2022-12-13)
 
 [Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.3.3...0.3.4)
