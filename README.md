@@ -19,11 +19,11 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/firefly-cpp/FireflyAlgorithm.svg)](http://isitmaintained.com/project/firefly-cpp/FireflyAlgorithm "Percentage of issues still open")
 ![GitHub contributors](https://img.shields.io/github/contributors/firefly-cpp/FireflyAlgorithm.svg)
 
-## About
+## About 📋
 
-This package implements a nature-inspired algorithm for optimization called Firefly Algorithm (FA) in Python programming language.
+This package implements a nature-inspired algorithm for optimization called Firefly Algorithm (FA) in Python programming language. 🌿🔍💻
 
-## Installation:
+## Installation 📦
 
 Install FireflyAlgorithm with pip:
 ```sh
@@ -42,7 +42,7 @@ To install FireflyAlgorithm on Alpine Linux:
 $ apk add py3-fireflyalgorithm
 ```
 
-## Usage:
+## Usage 🚀
 
 ```python
 from fireflyalgorithm import FireflyAlgorithm
@@ -54,7 +54,7 @@ best = FA.run(function=sphere, dim=10, lb=-5, ub=5, max_evals=10000)
 print(best)
 ```
 
-### Test functions
+### Test functions 📈
 
 In the `fireflyalgorithm.problems` module, you can find the implementations of 33 popular optimization test problems.  Additionally, the module provides a utility function, `get_problem`, that allows you to retrieve a specific optimization problem function by providing its name as a string:
 
@@ -65,12 +65,11 @@ from fireflyalgorithm.problems import get_problem
 rosenbrock = get_problem('rosenbrock')
 ```
 
-For more information about the implemented test functions, [click here](Problems.md)
+For more information about the implemented test functions, [click here](Problems.md).
 
-### Command line interface
+### Command line interface 🖥️
 
-The package also comes with a simple command line interface which allows you to evaluate the algorithm on several
-popular test functions
+The package also comes with a simple command line interface which allows you to evaluate the algorithm on several popular test functions. 🔬
 
 ```shell
 firefly-algorithm -h
@@ -100,10 +99,10 @@ options:
   --seed SEED           Seed for the random number generator
 ```
 
-**Note:** The CLI script can also run as a python module (python -m niaarm ...)
+**Note:** The CLI script can also run as a python module (python -m niaarm ...).
 
 
-## Reference Papers:
+## Reference Papers 📚
 
 I. Fister Jr.,  X.-S. Yang,  I. Fister, J. Brest. [Memetic firefly algorithm for combinatorial optimization](http://www.iztok-jr-fister.eu/static/publications/44.pdf) in Bioinspired Optimization Methods and their Applications (BIOMA 2012), B. Filipic and J.Silc, Eds.
 Jozef Stefan Institute, Ljubljana, Slovenia, 2012
