@@ -99,7 +99,7 @@ options:
   --seed SEED           Seed for the random number generator
 ```
 
-**Note:** The CLI script can also run as a python module (python -m niaarm ...).
+**Note:** The CLI script can also run as a python module (python -m fireflyalgorithm ...).
 
 
 ## Reference Papers 📚
