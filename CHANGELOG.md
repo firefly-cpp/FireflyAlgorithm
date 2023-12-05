@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.2](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.4.2) (2023-12-04)
+
+[Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.4.1...0.4.2)
+
+**Merged pull requests:**
+
+- Contribution guide [\#20](https://github.com/firefly-cpp/FireflyAlgorithm/pull/20) ([lahovniktadej](https://github.com/lahovniktadej))
+
 ## [0.4.1](https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.4.1) (2023-11-10)
 
 [Full Changelog](https://github.com/firefly-cpp/FireflyAlgorithm/compare/0.4.0...0.4.1)
