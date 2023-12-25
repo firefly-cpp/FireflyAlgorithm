@@ -1,0 +1,21 @@
+abstract: Implementation of Firefly Algorithm in Python
+authors:
+- family-names: Fister Jr.
+  given-names: Iztok
+  orcid: 0000-0002-6418-1272
+- affiliation: '@poviolabs'
+  family-names: "Pe\u010Dnik"
+  given-names: Luka
+  orcid: 0000-0002-3897-9774
+- family-names: Stupan
+  given-names: "\u017Diga"
+  orcid: 0000-0001-9847-7306
+cff-version: 1.2.0
+date-released: '2023-12-25'
+doi: 10.5281/zenodo.10430919
+license:
+- MIT
+repository-code: https://github.com/firefly-cpp/FireflyAlgorithm/tree/0.4.4
+title: 'firefly-cpp/FireflyAlgorithm: 0.4.4'
+type: software
+version: 0.4.4
