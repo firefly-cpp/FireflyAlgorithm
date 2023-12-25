@@ -19,6 +19,7 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/firefly-cpp/FireflyAlgorithm.svg)](http://isitmaintained.com/project/firefly-cpp/FireflyAlgorithm "Percentage of issues still open")
 ![GitHub contributors](https://img.shields.io/github/contributors/firefly-cpp/FireflyAlgorithm.svg)
 [![Packaging status](https://repology.org/badge/tiny-repos/python:fireflyalgorithm.svg)](https://repology.org/project/python:fireflyalgorithm/versions)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10430919.svg)](https://doi.org/10.5281/zenodo.10430919)
 
 ## About 📋
 
