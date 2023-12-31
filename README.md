@@ -12,6 +12,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fireflyalgorithm.svg)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/fireflyalgorithm.svg)
 [![Downloads](https://pepy.tech/badge/fireflyalgorithm)](https://pepy.tech/project/fireflyalgorithm)
+![GitHub repo size](https://img.shields.io/github/repo-size/firefly-cpp/FireflyAlgorithm?style=flat-square)
 [![AUR package](https://img.shields.io/aur/version/python-fireflyalgorithm?color=blue&label=Arch%20Linux&logo=arch-linux)](https://aur.archlinux.org/packages/python-fireflyalgorithm)
 [![GitHub license](https://img.shields.io/github/license/firefly-cpp/FireflyAlgorithm.svg)](https://github.com/firefly-cpp/FireflyAlgorithm/blob/master/LICENSE)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/firefly-cpp/FireflyAlgorithm.svg)
