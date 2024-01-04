@@ -112,6 +112,10 @@ Jozef Stefan Institute, Ljubljana, Slovenia, 2012
 
 I. Fister, I. Fister Jr.,  X.-S. Yang, J. Brest. [A comprehensive review of firefly algorithms](http://www.iztok-jr-fister.eu/static/publications/23.pdf). Swarm and Evolutionary Computation 13 (2013): 34-46.
 
+## Cite us
+
+Fister Jr., I., Pečnik, L., & Stupan, Ž. (2023). firefly-cpp/FireflyAlgorithm: 0.4.3 (0.4.3). Zenodo. [https://doi.org/10.5281/zenodo.10430919](https://doi.org/10.5281/zenodo.10430919)
+
 ## License
 
 This package is distributed under the MIT License. This license can be found online at <http://www.opensource.org/licenses/MIT>.
