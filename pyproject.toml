@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fireflyalgorithm"
-version = "0.4.4"
+version = "0.4.5"
 description = "Implementation of Firefly Algorithm in Python"
 authors = ["Iztok Fister Jr. <iztok@iztok-jr-fister.eu>", "Luka Pečnik <luka.pecnik@student.um.si>", "Žiga Stupan <ziga.stupan1@student.um.si>"]
 keywords = ['computational intelligence', 'firefly algorithm', 'swarm intelligence', 'optimization']

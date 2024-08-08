@@ -2,4 +2,4 @@ from fireflyalgorithm.fireflyalgorithm import FireflyAlgorithm
 
 __all__ = ["FireflyAlgorithm"]
 
-__version__ = "0.4.4"
+__version__ = "0.4.5"
