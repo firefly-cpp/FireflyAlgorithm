@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fireflyalgorithm"
-version = "0.4.5"
+version = "0.4.6"
 description = "Implementation of Firefly Algorithm in Python"
 authors = ["Iztok Fister Jr. <iztok@iztok-jr-fister.eu>", "Luka Pečnik <luka.pecnik@student.um.si>", "Žiga Stupan <ziga.stupan1@student.um.si>"]
 keywords = ['computational intelligence', 'firefly algorithm', 'swarm intelligence', 'optimization']
@@ -15,7 +15,7 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9,<3.13"
+python = "^3.9,<3.14"
 numpy = "^1.26.1"
 
 [tool.poetry.group.test.dependencies]
