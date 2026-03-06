@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-Firefly Algorithm --- Implementation of Firefly algorithm in Python
+Firefly Algorithm --- Implementation of Firefly Algorithm (FA) in Python
 </h1>
 
 <p align="center">
@@ -17,10 +17,8 @@ Firefly Algorithm --- Implementation of Firefly algorithm in Python
 </p>
 
 <p align="center">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/firefly-cpp/FireflyAlgorithm.svg">
   <img alt="Average time to resolve an issue" src="http://isitmaintained.com/badge/resolution/firefly-cpp/FireflyAlgorithm.svg" href="http://isitmaintained.com/project/firefly-cpp/FireflyAlgorithm">
   <img alt="Percentage of issues still open" src="http://isitmaintained.com/badge/open/firefly-cpp/FireflyAlgorithm.svg" href="http://isitmaintained.com/project/firefly-cpp/FireflyAlgorithm">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/firefly-cpp/FireflyAlgorithm.svg">
   <img alt="Packaging status" src="https://repology.org/badge/tiny-repos/python:fireflyalgorithm.svg" href="https://repology.org/project/python:fireflyalgorithm/versions">
 </p>
 
